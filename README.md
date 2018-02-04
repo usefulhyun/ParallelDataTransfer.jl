@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/ChrisRackauckas/ParallelDataTransfer.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/ChrisRackauckas/ParallelDataTransfer.jl)
 [![coveralls](https://coveralls.io/repos/github/ChrisRackauckas/ParallelDataTransfer.jl/badge.svg)](https://coveralls.io/github/ChrisRackauckas/ParallelDataTransfer.jl)
 
-A bunch of helper functions for transferring data between worker processes. The functions are robust with safety measures built into the commands, and the package is thoroughly tested to ensure correctness (with an unsafe API coming soon). As such, this commands thus allow for rapid development and prototyping of parallel algorithms. The underlying infrustructure is Julia's native multiprocess parallelism, meaning that no dependencies are required for use other than Base Julia.
+A bunch of helper functions for transferring data between worker processes. The functions are robust with safety measures built into the commands, and the package is thoroughly tested to ensure correctness (with an unsafe API coming soon). As such, this commands thus allow for rapid development and prototyping of parallel algorithms. The underlying infrastructure is Julia's native multiprocess parallelism, meaning that no dependencies are required for use other than Base Julia.
 
 ## Installation
 
